@@ -1,0 +1,23 @@
+---
+title: "R Notebook"
+output: "html_document"
+---
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r}
+db <- data.frame(a = c(1,2,3), b = c('a', 'b', 'c'), c = c('azul', 'azul', 'verde'))
+```
+
+Ahora metemos la formula $Z^2  = X^2 + Y^2$ en el siguiente casillero.
+
+```{r}
+x <- db[1,1]
+y <- db[2,1]
+#---enter code here: delete line and enter your code
+z <- x + y
+#---
+z
+```
+
+Felicitaciones!
